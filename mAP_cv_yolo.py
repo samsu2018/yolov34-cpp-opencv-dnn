@@ -8,7 +8,7 @@
 
 import glob
 import os
-from aingle_or_multi import get_obj
+from saingle_or_multi import get_obj
 
 # classna,e
 cls_file = './coco.names'
