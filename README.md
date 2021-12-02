@@ -7,3 +7,10 @@
 
 下载完成后把下载得到的4个文件夹拷贝到和main_yolo.cpp同一目录下，
 只要安装了opencv4.4.0，就可以在windows和linux系统编译并运行main_yolo.cpp
+
+### Create the detection-results files for mAP
+- In these files, each line should be in the following format:
+
+```
+<class_name> <confidence> <left> <top> <right> <bottom>
+```
